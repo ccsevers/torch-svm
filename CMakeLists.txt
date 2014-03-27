@@ -19,4 +19,4 @@ SET(src)
 SET(luasrc init.lua data.lua)
 
 ADD_TORCH_PACKAGE(svm "${src}" "${luasrc}")
-ADD_TORCH_DOK(dok svm "Machine Learning" "Support Vector Machines" 3.99)
+#ADD_TORCH_DOK(dok svm "Machine Learning" "Support Vector Machines" 3.99)
